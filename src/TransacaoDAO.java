@@ -4,9 +4,9 @@ import java.util.List;
 
 public class TransacaoDAO {
 
-    private String url = "jdbc:oracle:thin:@localhost:1521:xe"; // Altere se necessário
-    private String usuario = "SEU_USUARIO"; // Coloque seu usuário Oracle aqui
-    private String senha = "SUA_SENHA";     // Coloque sua senha Oracle aqui
+    private String url = "jdbc:oracle:thin:@localhost:1521:xe"; 
+    private String usuario = "SEU_USUARIO"; 
+    private String senha = "SUA_SENHA";     
 
     public void insert(Transacao transacao) {
         String sql = "INSERT INTO transacoes (descricao, valor) VALUES (?, ?)";
