@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         TransacaoDAO dao = new TransacaoDAO();
 
-        // Inserção de 5 registros
+        // 5 registros
         dao.insert(new Transacao("Compra no mercado", 150.0));
         dao.insert(new Transacao("Pagamento de conta", 200.0));
         dao.insert(new Transacao("Salário recebido", 3000.0));
